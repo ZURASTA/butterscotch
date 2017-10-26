@@ -1,0 +1,13 @@
+/* colors */
+$color__header: black;
+$color__banner-logo: white;
+$color__info-title: #50E3C2;
+$color__btn: #FFE520;
+
+/* fonts */
+@font-face {
+   font-family: 'texgyreheroscn';
+   src: url("~./fonts/texgyreheroscn-regular.otf") format("truetype");
+}
+
+$font__init: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;

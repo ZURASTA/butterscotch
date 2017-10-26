@@ -1,0 +1,51 @@
+html, body {
+  font-family: $font__init;
+  margin: 0;
+  height:100%;
+  width:100%;
+  padding:0;
+}
+
+h1, h2, h3, h4, h5, h6, p, button, input {
+  font-family: $font__init;
+}
+
+section {
+  display: block;
+  width:100%;
+  box-sizing:border-box;
+}
+
+.container {
+  margin: 0;
+  height:100%;
+  width:100%;
+  padding:0;
+}
+
+.pure-u-1-2 {
+  position: relative;
+}
+
+.clearfix:after {
+  content: ".";
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear: both;
+}
+
+.clear {
+  clear: both;
+}
+
+.site-support,
+.site-join-us {
+  .pure-g{
+    padding: 3em 2.5em 0 2.5em;
+  }
+}
+
+button:hover {
+  background-color: #ffed61;
+}
